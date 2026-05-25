@@ -81,7 +81,7 @@ Sound travels ~0.0343 cm per microsecond. Since the pulse travels *to* the objec
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/speedcuber2424/ultrasonic-rgb-indicator.git
+   git clone https://github.com/speedcuber2424/code-for-the-ultrasonic-sensor-and-RGB-LED/blob/main/
    ```
 
 2. **Open the sketch** in Arduino IDE  
