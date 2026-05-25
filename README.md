@@ -1,4 +1,4 @@
-# 🟢 Ultrasonic RGB Distance Indicator
+#  Ultrasonic RGB Distance Indicator
 
 > An Arduino project that uses an HC-SR04 ultrasonic sensor to measure distance and displays it visually using an RGB LED — green for far, yellow for medium, and red for close.
 
@@ -8,24 +8,24 @@
 
 ---
 
-## 📺 Watch the Build
+##  Watch the Build
 
 > **Video coming soon on [ARYAN BUILDS](https://www.youtube.com/@ARYANBUILDSS)**  
 > Subscribe so you don't miss it!
 
 ---
 
-## 📸 Demo
+##  Demo
 
 | Distance | LED Color | Range |
 |---|---|---|
-| Far | 🟢 Green | > 30 cm |
-| Medium | 🟡 Yellow | 10 – 30 cm |
-| Close | 🔴 Red | < 10 cm |
+| Far | Green | > 30 cm |
+| Medium | Yellow | 10 – 30 cm |
+| Close | Red | < 10 cm |
 
 ---
 
-## 🛠️ Components
+##  Components
 
 | Component | Quantity | Notes |
 |---|---|---|
@@ -38,7 +38,7 @@
 
 ---
 
-## 🔌 Wiring
+## Wiring
 
 ```
 HC-SR04 VCC   ──── 5V
@@ -52,13 +52,9 @@ RGB LED G     ──── 220Ω ──── Pin 5
 RGB LED B     ──── 220Ω ──── Pin 6
 ```
 
-> ⚠️ **Common Anode LED:** The long leg connects to **5V** (not GND). All color values are inverted in code using `255 - value`.
+>  **Common Anode LED:** The long leg connects to **5V** (not GND). All color values are inverted in code using `255 - value`.
 
 ---
-
-## 💻 Code
-
-The sketch is located at [`src/ultrasonic_rgb/ultrasonic_rgb.ino`](src/ultrasonic_rgb/ultrasonic_rgb.ino).
 
 ### Distance thresholds (easy to customize)
 
@@ -98,7 +94,7 @@ Sound travels ~0.0343 cm per microsecond. Since the pulse travels *to* the objec
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The Arduino sends a 10µs HIGH pulse on the **TRIG** pin
 2. The HC-SR04 fires 8 ultrasonic pulses at 40kHz
@@ -109,7 +105,7 @@ Sound travels ~0.0343 cm per microsecond. Since the pulse travels *to* the objec
 
 ---
 
-## 🔧 Customization Ideas
+## Customization Ideas
 
 - Change the `CLOSE_DISTANCE` and `MID_DISTANCE` values to suit your use case
 - Add a buzzer that beeps faster as the object gets closer
@@ -131,13 +127,13 @@ Sound travels ~0.0343 cm per microsecond. Since the pulse travels *to* the objec
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and share it!
 
 ---
 
-## 👤 Author
+## Author
 
 **Aryan** — [ARYAN BUILDS](https://www.youtube.com/@ARYANBUILDSS) 
 ---
